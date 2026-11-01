@@ -29,7 +29,7 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 
 The development API docs are at `http://127.0.0.1:8000/docs`. Health/readiness endpoints are in the source API contract. Missing external credentials/data may produce explicit unavailable states rather than usable AI/news/market output. Email verification/reset requires your independently configured SMTP sender; no working sender is bundled.
 
-For the original PostgreSQL17 development path, inspect `docker-compose.yml` and change its development-only credentials/configuration for your environment. A fresh PostgreSQL E2E deployment is not part of this archive's verification report.
+For the original PostgreSQL17 development path, inspect `docker-compose.yml` and change its development-only credentials/configuration for your environment. The preserved `backend/docker-entrypoint.sh` and `scripts/backup_postgres.sh` have CRLF line endings: convert them to LF in your working copy before Linux/Docker execution; see [known issues](KNOWN_ISSUES.md). A fresh PostgreSQL E2E deployment is not part of this archive's verification report.
 
 ## Frontend
 

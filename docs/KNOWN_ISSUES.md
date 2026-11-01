@@ -16,6 +16,10 @@ Static review found that `backend/app/services/coingecko.py` initializes `_last_
 
 This is a reachable condition visible in source, but the failed run did not record the monotonic value or mock-request counts. It is **a candidate to reproduce and investigate, not a confirmed diagnosis of that run**. Capture those observations in an isolated test before choosing a repair; also compare environment/dependency and test-isolation effects.
 
+## Windows line endings in shell scripts
+
+The supplied mirror uses CRLF line endings in `backend/docker-entrypoint.sh` and `scripts/backup_postgres.sh`. This repository preserves their original bytes. Convert these shell scripts to LF in your own working copy before executing them on Linux or using the Docker entrypoint; otherwise the CRLF shebang/commands can prevent execution. A current Docker/PostgreSQL E2E was not certified by this publication. This is separate from the Python unit-test result.
+
 ## Other continuation boundaries
 
 See [current status](CURRENT_STATUS.md) and [continuation guide](CONTINUING.md) for the unfinished Phase6 predictor, mock real-money exchange contract, provider/deployment gaps, incomplete portfolio/payment UI and older Android scaffold. The interrupted Flutter suite is separately documented in [verification](VERIFICATION.md);352 passed/9 skipped is partial progress, not full completion.
