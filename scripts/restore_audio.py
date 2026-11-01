@@ -1,6 +1,6 @@
 """Restore the separately supplied audio pack after verifying all expected bytes."""
 from pathlib import Path
-import argparse,hashlib,json,zipfile
+import argparse,hashlib,json,shutil,zipfile
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -19,12 +19,17 @@ def main():
                 raise ValueError('Target outside audio directory')
             info=archive.getinfo(row['path'])
             if info.file_size!=row['bytes']:raise ValueError('Audio size mismatch: '+row['path'])
-            data=archive.read(info)
-            if hashlib.sha256(data).hexdigest()!=row['sha256']:raise ValueError('Audio hash mismatch: '+row['path'])
-            pending.append((target,data))
-    # Verify the entire pack before writing any output. No arbitrary extraction.
-    for target,data in pending:
-        target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+            checksum=hashlib.sha256()
+            with archive.open(info) as stream:
+                for chunk in iter(lambda:stream.read(1024*1024),b''):checksum.update(chunk)
+            if checksum.hexdigest()!=row['sha256']:raise ValueError('Audio hash mismatch: '+row['path'])
+            pending.append((target,info))
+        # Verify the entire pack before writing any output. Stream the files
+        # rather than holding a large music collection in RAM.
+        for target,info in pending:
+            target.parent.mkdir(parents=True,exist_ok=True)
+            with archive.open(info) as source,target.open('wb') as destination:
+                shutil.copyfileobj(source,destination,length=1024*1024)
     print(f'Restored {len(pending)} verified original audio files.')
 
 if __name__=='__main__':main()
