@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: goldbrain
+      POSTGRES_USER: goldbrain
+      POSTGRES_PASSWORD: goldbrain_dev_only
+    ports:
+      - "5432:5432"
+    volumes:
+      - goldbrain_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U goldbrain -d goldbrain"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build: ./backend
+    env_file:
+      - ./backend/.env
+    environment:
+      GOLDBRAIN_ENVIRONMENT: development
+      GOLDBRAIN_DEBUG: "true"
+      GOLDBRAIN_DATABASE_URL: postgresql+psycopg://goldbrain:goldbrain_dev_only@postgres:5432/goldbrain
+      GOLDBRAIN_AUTO_CREATE_TABLES: "false"
+      GOLDBRAIN_RUN_MIGRATIONS: "true"
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  goldbrain_postgres:

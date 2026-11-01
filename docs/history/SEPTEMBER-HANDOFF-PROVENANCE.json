@@ -1,0 +1,18 @@
+{
+  "status": "historical-and-superseded",
+  "describes_backend_commit": "08ad208",
+  "validation_date": "2026-09-08",
+  "note": "Historical figures and setup names are not current publication verification results.",
+  "files": [
+    {
+      "path": "2026-09-08-FRONTEND_PRIVATE_BETA_FA.md",
+      "sha256": "c9ccd96e4139f21c58e679e1e73445755cddfe07e95b11ba0a5b2021ed8c0305",
+      "source_label": "before-private-beta-20260908-203635/docs/FRONTEND_PRIVATE_BETA_FA.md"
+    },
+    {
+      "path": "2026-09-08-FRONTEND_VALIDATION.md",
+      "sha256": "d765b894cd8d4dcaa76cd3cefd1c74d1c806043642a5cadcc2df70cc66097e6f",
+      "source_label": "before-private-beta-20260908-203635/docs/FRONTEND_VALIDATION.md"
+    }
+  ]
+}

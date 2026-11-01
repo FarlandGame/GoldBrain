@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-01",
+  "environment": {
+    "os": "Windows",
+    "backend_python": "3.14.3 (existing development environment)",
+    "flutter": "3.44.6",
+    "dart": "3.12.2",
+    "fresh_python312_install": "not performed"
+  },
+  "backend_tests": {
+    "status": "passed",
+    "passed": 213,
+    "warnings": 13,
+    "seconds": 78.87
+  },
+  "backend_ruff": {
+    "status": "passed"
+  },
+  "flutter_analyze": {
+    "status": "passed",
+    "issues": 0,
+    "seconds": 51.6
+  },
+  "flutter_unit_widget_tests": {
+    "status": "interrupted_to_reduce_RAM_at_user_request",
+    "last_reported_passed": 352,
+    "last_reported_skipped": 9,
+    "full_suite_pass_claim": false
+  },
+  "sqlite_migrations": {
+    "status": "passed",
+    "head": "0010_phase3_email_auth",
+    "database": "isolated fresh verification database; not included"
+  },
+  "source_preservation": {
+    "unchanged_files": 333,
+    "application_or_test_source_changes": 0
+  },
+  "secret_scan": {
+    "curated_current_and_historical_files": 852,
+    "known_private_value_or_high_confidence_pattern_matches": 0
+  },
+  "not_verified": [
+    "fresh current Windows executable build",
+    "current Android/web build",
+    "live quotes/model/news-provider operation",
+    "SMTP delivery",
+    "native audio playback",
+    "PostgreSQL E2E",
+    "real-money trading",
+    "prediction performance"
+  ]
+}

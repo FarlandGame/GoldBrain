@@ -1,0 +1,115 @@
+{
+  "rights_basis": "Creator explicitly confirmed redistribution permission on 2026-11-01. This is not an MIT sublicensing grant for third-party recordings.",
+  "files": [
+    {
+      "path": "frontend/assets/sounds/alexis_gaming_cam-ks-motion-metal-hit-351564.mp3",
+      "bytes": 60672,
+      "sha256": "e9c2fa8c53aedfca42d730cacbe43d72b966cc1e53cd692d50d9da5bbfd25685"
+    },
+    {
+      "path": "frontend/assets/sounds/auth_ambient.wav",
+      "bytes": 993650,
+      "sha256": "ccfb19339b370c7ed6f8c3e027442d9bc02c9eb690798642e4c896a1fd6dccfa"
+    },
+    {
+      "path": "frontend/assets/sounds/Beautiful_Relaxing_Music_1231354354.mp3",
+      "bytes": 48233622,
+      "sha256": "afa0b287c09cc2b5b4a4fbe50afa1ff026b3196a5d87cae64796b801d07c838f"
+    },
+    {
+      "path": "frontend/assets/sounds/dashboard_ambient.wav",
+      "bytes": 991004,
+      "sha256": "13552d7bbbdd6a012263061407307e59ebdb297791ffe67a1a91a0e86ca68a81"
+    },
+    {
+      "path": "frontend/assets/sounds/dashboard_ready.wav",
+      "bytes": 37122,
+      "sha256": "75929a7fe3e74b49057f3d3ea390c8e99702f27a56dfd29d3f63979bd0b177d6"
+    },
+    {
+      "path": "frontend/assets/sounds/empty-bullet-shell-fall-01.mp3",
+      "bytes": 124588,
+      "sha256": "dc0d88f625299609565a6c51534fb2f533feefa686285b40439b8aee14a8885a"
+    },
+    {
+      "path": "frontend/assets/sounds/glass-breaking-93803.mp3",
+      "bytes": 56006,
+      "sha256": "a838e410c2334a586c7700eae92fe6b5128e20c8498bc36a719e2a89d19613ca"
+    },
+    {
+      "path": "frontend/assets/sounds/gun-cocking-01.mp3",
+      "bytes": 34726,
+      "sha256": "bfe80c9b575dd6741afaf8ed873ecbb95f9a49605e8da5bc6d7cbf3f7aaf8cbc"
+    },
+    {
+      "path": "frontend/assets/sounds/gun-gunshot-01.mp3",
+      "bytes": 65028,
+      "sha256": "6f411e97a2d2746588fc49684b45949765ebf32957856dd003bad6598ef39396"
+    },
+    {
+      "path": "frontend/assets/sounds/interface_click.wav",
+      "bytes": 6340,
+      "sha256": "381517d524bbe6faa644d630f74e9aeabd228234fcea8b8010c31ae5552cf4f1"
+    },
+    {
+      "path": "frontend/assets/sounds/Light Piano x Guitar x Flute x Birds Singing.mp3",
+      "bytes": 88569855,
+      "sha256": "85e0b5bc24fee5cff5a37f7d31ebc1f6b38e50c05834c89d7737f5287a8729ec"
+    },
+    {
+      "path": "frontend/assets/sounds/login_confirm.wav",
+      "bytes": 35798,
+      "sha256": "6a4c70cebbdc293b3d2793e0b7473c07192c2c6788aa82860010d21c80ad6cdb"
+    },
+    {
+      "path": "frontend/assets/sounds/notification_open.wav",
+      "bytes": 28742,
+      "sha256": "10fce50f5010b5105fdda9188baca86c0a4f467f8c122a9038f9230154039e30"
+    },
+    {
+      "path": "frontend/assets/sounds/Relax Music - Nicmusic - 04.mp3",
+      "bytes": 45338332,
+      "sha256": "8ba4574fa288a10f7a6b5777765e035ea80f58a804acb1ae7539de20707c3060"
+    },
+    {
+      "path": "frontend/assets/sounds/selection_ambient.wav",
+      "bytes": 988800,
+      "sha256": "63c2212b38598b0ab4cc7ccc4d3bf87d1c9b00d98e7b37788f3d395ceb47ad56"
+    },
+    {
+      "path": "frontend/assets/sounds/settings_saved.wav",
+      "bytes": 24774,
+      "sha256": "c2129c3bfbe8bf13e1450b6910f59bb20a7649fb2a5a6b656a5bc08452f35c4f"
+    },
+    {
+      "path": "frontend/assets/sounds/startup_sequence.wav",
+      "bytes": 53438,
+      "sha256": "ef216425ad3c63c6c185f32e43ef2794bed89595f6e7861ea1f7467d416d23a5"
+    },
+    {
+      "path": "frontend/assets/sounds/tab_shift.wav",
+      "bytes": 11544,
+      "sha256": "142d5d6839192fd29c74071b4b3f5dcd46947e8eafd084de29811afb06c50f09"
+    },
+    {
+      "path": "frontend/assets/sounds/theme_hover.wav",
+      "bytes": 4266,
+      "sha256": "5ca038e842673a4dca4b5803258c3b74286554a6647ff4cfd07d040d8f3c5df0"
+    },
+    {
+      "path": "frontend/assets/sounds/theme_selected.wav",
+      "bytes": 26318,
+      "sha256": "032223b372c303a084fbfd3f5d1f93129e3668df747a7c1e010cb6ba8dfc492e"
+    },
+    {
+      "path": "frontend/assets/sounds/typing_key.wav",
+      "bytes": 4576,
+      "sha256": "d01a6acbeefc1babea41c6f86913c6e4c93e880cd426044f208bbe715bb2ba5b"
+    },
+    {
+      "path": "frontend/assets/sounds/writing-signature-3.mp3",
+      "bytes": 70027,
+      "sha256": "341e67ca6b5491dc5701d797852b244792d832a11606a47ffb82bec0434be7f5"
+    }
+  ]
+}
