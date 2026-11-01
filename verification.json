@@ -49,5 +49,17 @@
     "PostgreSQL E2E",
     "real-money trading",
     "prediction performance"
-  ]
+  ],
+  "github_ci": {
+    "status": "failed",
+    "run_url": "https://github.com/FarlandGame/GoldBrain/actions/runs/41329253595",
+    "python": "3.12.15",
+    "os": "Ubuntu GitHub-hosted runner",
+    "passed": 212,
+    "failed": 1,
+    "warnings": 13,
+    "failed_test": "test_phase1_providers.py::test_coingecko_fallback_keeps_usd_market_and_source_visible",
+    "error": "KeyError: XMR",
+    "root_cause": "unconfirmed; see docs/KNOWN_ISSUES.md"
+  }
 }

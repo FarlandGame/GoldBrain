@@ -17,3 +17,7 @@ Backend execution used the existing Python3.14.3 development environment. The pr
 No fresh Windows release build,Android/web build,native audio smoke run,PostgreSQL E2E,live provider/model completion or SMTP delivery was certified by this publication. No real-money trading or prediction-performance validation is claimed. Older numerical test results in original progress notes remain dated historical records.
 
 Machine-readable results: [verification.json](../verification.json). Private test logs remain in the owner's disposable preparation folder; no personal runtime state or keys are distributed. The interrupted Flutter suite was not restarted after the user reported memory pressure.
+
+## Fresh hosted CI result
+
+The original workflow subsequently ran on Ubuntu/Python3.12.15 and reported **212 passed,1 failed** (XMR/CoinGecko fallback, KeyError). This differs from the local213-pass result; see [KNOWN_ISSUES.md](KNOWN_ISSUES.md) and the [public run](https://github.com/FarlandGame/GoldBrain/actions/runs/41329253595). No original application or test code was changed to suppress it.

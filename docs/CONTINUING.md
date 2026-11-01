@@ -6,6 +6,8 @@ GoldBrain is a preserved, unfinished financial-intelligence research project. St
 
 Read [SETUP.md](SETUP.md), [CURRENT_STATUS.md](CURRENT_STATUS.md), [VERIFICATION.md](VERIFICATION.md) and [VERSION_MAP.md](VERSION_MAP.md). Use a fresh local database and independently configured service credentials. Restore the optional audio pack if desired. Run backend tests and Flutter analysis/tests before changing functionality. Pin the checked-in dependency manifests/lockfile for the first reproduction.
 
+Read [KNOWN_ISSUES.md](KNOWN_ISSUES.md) before treating a clean CI reproduction as established: the first hosted run had one XMR fallback failure.
+
 ## 2. Separate existing research from the planned product
 
 The backend has feature extraction, an ensemble research forecast, chronological backtests, forecast/evaluation evidence and paper-trading APIs. The planned Phase 6 live/self-feedback predictor is unfinished; the assistant's latest-forecast tool explicitly returns unavailable. Automated real-money Wallex execution and the proposed allocation of a user-selected portion of funds were product ambitions, not implemented features. The current exchange adapter is a mock contract.
