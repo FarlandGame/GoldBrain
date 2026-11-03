@@ -17,3 +17,7 @@ Supplied GoldBrain branding/images and a historical v1.0.0 promo poster accompan
 ## Excluded local material
 
 Personal `.env` files,API/SMTP credentials,account/test databases and database backups,Android signing keys,private Git metadata,caches/build outputs,debug/session logs and unrelated Minecraft/IndraHub outputs are excluded. These are not needed for a new developer's fresh setup. Source examples use placeholders; bring your own authorized provider access and local database.
+
+## Historical animation sources and promo video
+
+The supplied v1.0.0 promo video and opening-animation Blender file/backup are preserved as historical creative reference material. The two Blender files retain their original bytes and have not been opened or rendered; see [their provenance](../design/history/GoldBrain-opening/README.md). Original creative rights and third-party element terms remain applicable, separately from the code MIT grant. These materials do not demonstrate completion of planned prediction or trading features.

@@ -1,0 +1,19 @@
+{
+  "added": "2026-11-03",
+  "source_folder_label": "GoldBrain agazin",
+  "role": "Historical opening-animation/design source from a creator-identified GoldBrain folder",
+  "files": [
+    {
+      "file": "untitled1.blend",
+      "bytes": 668044,
+      "sha256": "4902c6dcac1987d380aabbeece0215cd622db5989f2936ccdc8f09c13b0bc53e"
+    },
+    {
+      "file": "untitled1.blend1",
+      "bytes": 668692,
+      "sha256": "bf1eae4caa5e06b9800a57f188ff6fb632021a4516ce7394d4eb8848176b33e9"
+    }
+  ],
+  "verification": "Copied byte-for-byte; not opened, rendered or checked for external Blender dependencies.",
+  "license_scope": "Separate creative-reference material; original creator rights retained. The code MIT grant does not assert new rights over third-party creative elements."
+}

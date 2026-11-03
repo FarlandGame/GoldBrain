@@ -14,3 +14,7 @@
 The two historical sourceZIPs in the preservation release retain selected original source bytes with provenance/omission manifests. They omit duplicate audio,credentials,databases,signing identities,private Git history and generated files. Use them for reference; do not overlay old files onto the current project and assume compatibility.
 
 The public repository starts with a new reviewed preservation commit. It does not republish private historical Git objects. `SOURCE_PROVENANCE.json` records the inspected source identity and current source-file hashes. Original developer history remains intact in the owner's local folders.
+
+## Additional historical creative sources
+
+[GoldBrain opening-animation Blender source and backup](../design/history/GoldBrain-opening/README.md) were recovered in the drive discovery and added on2026-11-03. They are unchanged creative references, not a verified render/build or part of the current app architecture. The supplied historical v1.0.0 promotional video is also a separate release download.

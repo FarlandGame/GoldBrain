@@ -4,7 +4,7 @@ GoldBrain is a preserved, unfinished financial-intelligence research project. St
 
 ## 1. Reproduce the current baseline
 
-Read [SETUP.md](SETUP.md), [CURRENT_STATUS.md](CURRENT_STATUS.md), [VERIFICATION.md](VERIFICATION.md) and [VERSION_MAP.md](VERSION_MAP.md). Use a fresh local database and independently configured service credentials. Restore the optional audio pack if desired. Run backend tests and Flutter analysis/tests before changing functionality. Pin the checked-in dependency manifests/lockfile for the first reproduction.
+Read [the current architecture](HANDOFF_ARCHITECTURE.md), [SETUP.md](SETUP.md), [CURRENT_STATUS.md](CURRENT_STATUS.md), [VERIFICATION.md](VERIFICATION.md) and [VERSION_MAP.md](VERSION_MAP.md). Use a fresh local database and independently configured service credentials. Restore the optional audio pack if desired. Run backend tests and Flutter analysis/tests before changing functionality. Pin the checked-in dependency manifests/lockfile for the first reproduction.
 
 Read [KNOWN_ISSUES.md](KNOWN_ISSUES.md) before treating a clean CI reproduction as established: the first hosted run had one XMR fallback failure.
 
