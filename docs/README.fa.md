@@ -1,9 +1,9 @@
 # GoldBrain 🧠✨
 
 <!-- PROJECT_VISUAL_HEADER -->
-<p><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-card.svg" width="600" alt="goldbrain"><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-sticker.svg" width="90" alt="goldbrain sticker"></p>
+<p><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-card.fa.svg" width="600" alt="GoldBrain · کد آرشیوشده"><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-sticker.fa.svg" width="90" alt="GoldBrain · کد آرشیوشده"></p>
 
-[← Farland_game / Portfolio](https://github.com/FarlandGame#portfolio-directory)
+[← Farland_game / رزومه](https://github.com/FarlandGame#portfolio-directory)
 <!-- PROJECT_VISUAL_HEADER_END -->
 
 **هفت ماه بلندپروازی، یادگیری و یک محیط ناتمام برای تحلیل هوشمند بازارهای مالی.**

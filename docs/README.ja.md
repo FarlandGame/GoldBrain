@@ -1,9 +1,9 @@
 # GoldBrain 🧠✨
 
 <!-- PROJECT_VISUAL_HEADER -->
-<p><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-card.svg" width="600" alt="goldbrain"><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-sticker.svg" width="90" alt="goldbrain sticker"></p>
+<p><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-card.ja.svg" width="600" alt="GoldBrain · ソースアーカイブ"><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-sticker.ja.svg" width="90" alt="GoldBrain · ソースアーカイブ"></p>
 
-[← Farland_game / Portfolio](https://github.com/FarlandGame#portfolio-directory)
+[← Farland_game / ポートフォリオ](https://github.com/FarlandGame#portfolio-directory)
 <!-- PROJECT_VISUAL_HEADER_END -->
 
 **7か月の挑戦と学びから生まれた、未完成の金融インテリジェンス・ワークスペース。**
