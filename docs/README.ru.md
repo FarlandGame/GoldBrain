@@ -1,7 +1,7 @@
 # GoldBrain 🧠✨
 
 <!-- PROJECT_VISUAL_HEADER -->
-<p><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-card.svg" width="600" alt="goldbrain"><img src="https://raw.githubusercontent.com/FarlandGame/GoldBrain/main/assets/showcase-sticker.svg" width="90" alt="goldbrain sticker"></p>
+<p><img src="https://raw.githubusercontent.com/FarlandGame/FarlandGame/main/assets/showcase/ru/goldbrain.svg" width="600" alt="goldbrain"><img src="https://raw.githubusercontent.com/FarlandGame/FarlandGame/main/assets/showcase/ru/goldbrain-sticker.svg" width="90" alt="goldbrain sticker"></p>
 
 [← Farland_game / Portfolio](https://github.com/FarlandGame#portfolio-directory)
 <!-- PROJECT_VISUAL_HEADER_END -->
